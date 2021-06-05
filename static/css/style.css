@@ -44,7 +44,7 @@ hr{
     margin: 64px;
 }
 .section-content h3::before {
-  content: ""counter(titleList)" ";
+  content: ""counter(titleList)". ";
 }
 
 .section-content{
@@ -71,6 +71,7 @@ hr{
   width: 32px;
   background-color: var(--gray30);
   display: inline-block;
+
 }
 
 h2 {
@@ -89,15 +90,27 @@ h3{
 .section-content h3 {
   font-size: 1.5em;
   counter-increment:  titleList;
+  padding-bottom: 4px;
 }
 
 pre {
   background: #fec62e;
-  font-size: 0.5em;
+  font-family: roboto;
+  line-height: 24px;
+  padding: 40px;
+  margin: 0 0 0 0px;
 }
 blockquote{
-    margin: 32px 0;
+    margin: 32px 0 0 10px;
+    font-family: 24px;
+    line-height: 24px;
+    padding-left: 16px;
+    border-left: 4px solid var(--gray30);
 }
+blockquote span{
+    color: var(--gray10);
+}
+
 
 .hero {
   background: linear-gradient(
