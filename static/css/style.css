@@ -4,10 +4,7 @@
   --gray20: #212429;
   --gray10: #616161;
 }
-* {
-  padding: 0;
-  margin: 0;
-}
+
 body {
   color: var(--gray30);
   font-family: "Roboto", sans-serif;
