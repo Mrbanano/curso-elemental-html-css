@@ -11,7 +11,28 @@ body {
   margin: 0;
   padding: 0;
 }
+.hero {
+    background: linear-gradient(
+        3.36deg,
+        #212325 -63.62%,
+        rgba(255, 255, 255, 0) 43.49%
+      ),
+      url("../img/patron-1.png");
+    height: 350px;
+    width: 100%;
+  }
+  
+.main{
 
+}
+.wrapper{
+    width: 902px;
+    margin: auto;
+
+}
+.main-content{
+    padding: 20px;
+}
 a {
   color: var(--gray30);
 }
@@ -19,6 +40,7 @@ a {
 header {
   font-size: 14px;
   color: (var(--gray10));
+  position:absolute;
 }
 header a {
   color: var(--gray10);
@@ -111,16 +133,5 @@ blockquote span{
     color: var(--gray10);
 }
 
-
-.hero {
-  background: linear-gradient(
-      3.36deg,
-      #212325 -63.62%,
-      rgba(255, 255, 255, 0) 43.49%
-    ),
-    url("../img/patron-1.png");
-  height: 350px;
-  width: 100%;
-}
 
 
