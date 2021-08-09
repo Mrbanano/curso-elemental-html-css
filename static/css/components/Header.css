@@ -44,7 +44,11 @@ nav details summary {
 
 
 @media (prefers-color-scheme: light) {
-  header a:hover {
+  header a{
     color: #424242;
+  }
+  
+  header a:hover {
+    color: black;
   }
 }
