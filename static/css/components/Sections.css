@@ -1,0 +1,50 @@
+.section-content img {
+    margin-block-start: 40px;
+    display: block;
+    max-inline-size: 100%;
+    height: auto;
+  }
+  
+  .section-content {
+    counter-reset: titleList;
+  }
+  
+  .section-content h3 {
+    counter-increment: titleList;
+  }
+  
+  .section-content h3::before {
+    content: counter(titleList, decimal)'. ';
+  }
+  
+  .section-content ol li{
+    line-height: 24px;  
+  }
+  .section-content:first-of-type{
+    margin: 0;
+  
+  }
+  .section-content ul li{
+    margin-bottom: 16px;
+    
+  }
+
+  .OrdenList, .List{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #A5A3A5;
+  }
+
+  .Help{
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+  }
+
+  @media (prefers-color-scheme: light) {
+    .OrdenList, .List{
+      color: #424242;
+    }
+  }
+
+  

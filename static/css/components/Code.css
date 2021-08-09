@@ -1,0 +1,18 @@
+pre {
+    background: var(--white10);
+    padding-block-end: 40px;
+    padding-block-start:40px ;
+    padding-inline-end:40px ;
+    padding-inline-start:40px ;
+    overflow: auto;
+    border-radius: 8px;
+  }
+
+  
+
+  @media (prefers-color-scheme: light) {
+    pre{
+      background: #E5E5E5;
+      color:black;
+    }
+  }

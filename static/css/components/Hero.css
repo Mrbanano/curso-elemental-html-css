@@ -1,0 +1,10 @@
+.hero {
+  background-image: linear-gradient(96.07deg, #314755 30.63%, #26a0da 102.18%);
+  block-size: 96px;
+}
+
+@media screen and (min-width: 1366px) {
+  .hero {
+    block-size: 350px;
+  }
+}

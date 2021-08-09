@@ -1,0 +1,74 @@
+.Setup--image{
+    display: inline-block;
+    min-inline-size: 48px;
+    min-block-size: 48px;
+    margin-block-start: 24px;
+    margin-block-end: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.Setup--image__chrome{
+    background: url('../../img/dark/Google-Chrome.png');
+}
+
+.Setup--image__Vs{
+    background: url('../../img/dark/vs.png');
+}
+
+.Setup--image__Figma{
+    background: url('../../img/dark/Figma.png');
+}
+
+.Setup--image__Github{
+    background: url('../../img/dark/GitHub.png');
+}
+
+@media (prefers-color-scheme: light) {
+    .Setup--image__chrome{
+        background: url('../../img/default/Google-Chrome.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .Setup--image__Vs{
+        background: url('../../img/default/Vs.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .Setup--image__Figma{
+        background: url('../../img/default/Figma.png');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .Setup--image__Github{
+        background: url('../../img/default/GitHub.png');
+        background-position: center;
+        background-size: cover;
+    }
+  }
+
+
+@media screen and (min-width: 1366px) {
+    .Setup--image__chrome{
+
+    }
+    
+    .Setup--image__Vs{
+    
+    }
+    
+    .Setup--image__Figma{
+    
+    }
+    
+    .Setup--image__Github{
+    
+    }
+}
+
+

@@ -5,12 +5,17 @@
   --gray10: #616161;
 }
 
+
+/*
 body {
   color: var(--gray30);
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
+
+
+
 .hero {
     background: linear-gradient(
         3.36deg,
@@ -132,6 +137,5 @@ blockquote{
 blockquote span{
     color: var(--gray10);
 }
-
 
 

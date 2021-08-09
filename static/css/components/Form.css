@@ -1,0 +1,36 @@
+.form input {
+  inline-size: 100%;
+  border: 1px solid var(--white30);
+  background: #251f24;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding-inline: 16px;
+  padding-block: 12px;
+  color: var(--white30);
+  font-size: 16px;
+  display: block;
+  margin-block-end: 24px;
+}
+
+.form a{
+  text-decoration: none;
+}
+
+.form .FormBtn {
+  background: #157efb;
+  inline-size: 100%;
+  block-size: 48px;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.form input::-webkit-input-placeholder {
+  color: var(--white20);
+}

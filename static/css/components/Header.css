@@ -1,0 +1,50 @@
+.header-content {
+  padding-inline: 20px;
+}
+header {
+  margin-block-start: 20px;
+  font-size: 14px;
+  color: var(--white);
+}
+
+header li {
+  color: var(--white20);
+  margin-block-end: 16px;
+}
+
+header a {
+  color: var(--white20);
+  text-decoration: none;
+}
+header a:hover {
+  color: var(--white30);
+}
+
+nav details summary {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1366px) {
+  .header {
+    position: sticky;
+    inset-block-start: -45px;
+  }
+  .header-content {
+    position: relative;
+    inset-block-start: 65px;
+    padding-inline: 0;
+  }
+  header {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: -208px;
+    inline-size: 188px;
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+  header a:hover {
+    color: #424242;
+  }
+}
