@@ -34,3 +34,23 @@
 .form input::-webkit-input-placeholder {
   color: var(--white20);
 }
+
+
+
+@media screen and (min-width: 1366px) {
+  .form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:16px;
+  }
+  .form input{
+    max-inline-size: 280px;
+    border-radius: 90px;
+    width: 280px;
+  }
+  .FormBtn{
+    min-inline-size: 126px;
+    border-radius: 50%;
+  }
+}

@@ -8,6 +8,16 @@ pre {
     border-radius: 8px;
   }
 
+  .preVersionB{
+    background: var(--white10);
+    padding-block-end: 40px;
+    padding-block-start:40px ;
+    padding-inline-end:40px ;
+    padding-inline-start:40px ;
+    overflow: auto;
+    border-radius: 8px;
+    color: white;
+  }
   
 
   @media (prefers-color-scheme: light) {

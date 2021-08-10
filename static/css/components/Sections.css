@@ -35,10 +35,33 @@
     font-weight: bold;
     color: #A5A3A5;
   }
-
   .Help{
     margin-block-start: 40px;
     margin-block-end: 40px;
+  }
+
+  .HelpB{
+    color: #A5A3A5;
+  }
+  .HelpD{
+    color: #B8C1EC;
+  }
+
+  .OrdenListB, .ListB{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #A5A3A5;
+  }
+  
+  .OrdenListD, .ListD{
+    color: #B8C1EC;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  .section-content-box{
+    text-align: left;
   }
 
   @media (prefers-color-scheme: light) {

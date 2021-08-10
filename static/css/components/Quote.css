@@ -11,7 +11,6 @@ blockquote {
     background-color: var(--white10);
     border-radius: 8px;
     font-size: 24px;
-   
   }
   blockquote p {
     padding-block-start: 12px;
@@ -24,6 +23,33 @@ blockquote {
     font-weight: bold;
   }
   
+
+  .blockquoteVersionB{
+    margin: 0;
+    padding: 0;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    min-inline-size: 328px;
+    min-block-size: 128px;
+    width: 100%;
+    background-color: var(--white10);
+    border-radius: 8px;
+    font-size: 24px;
+  }
+
+  .blockquoteVersionB p {
+    padding-block-start: 12px;
+    padding-inline-start: 8px;
+    padding-block-end: 8px;
+    margin-block-end: 0;
+    color: var(--white30);
+    font-size: 17px;
+    line-height: 32px; 
+    font-weight: bold;
+  }
+
 
   @media (prefers-color-scheme: light) {
     blockquote {
@@ -42,7 +68,6 @@ blockquote {
     blockquote{
       
       inline-size: 100%;
-      max-inline-size: 612px;
       margin-inline-start: 0;
       margin-inline-end: auto;
     }

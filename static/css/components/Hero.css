@@ -1,10 +1,25 @@
 .hero {
-  background-image: linear-gradient(96.07deg, #314755 30.63%, #26a0da 102.18%);
+  background: url('../../img/patron-1.png');
+  background-position: center;
   block-size: 96px;
 }
 
+.HeroVersionB{
+  background-image: linear-gradient(96.07deg, #314755 30.63%, #26a0da 102.18%);
+}
+.HeroVersionC{
+  background-image: linear-gradient(96.07deg, #314755 30.63%, #26a0da 102.18%);
+}
+.HeroVersionD{
+  background: linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%), url('../../img/patron-2.png');
+  block-size: 96px;
+}
+.HeroVersionE{
+  background-image: linear-gradient(96.07deg, #314755 30.63%, #26a0da 102.18%);
+}
+
 @media screen and (min-width: 1366px) {
-  .hero {
+  .hero,.HeroVersionD {
     block-size: 350px;
   }
 }

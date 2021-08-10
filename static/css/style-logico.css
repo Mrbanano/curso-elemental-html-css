@@ -1,5 +1,6 @@
 @import './components/wrapper.css';
 @import './components/Hero.css';
+@import './components/Menu.css';
 @import './components/Header.css';
 @import './components/Titles.css';
 @import './components/Setup.css';
@@ -28,9 +29,6 @@ body {
   margin-block-end: 0;
   margin-block-start: 0;
 }
-
-
-
 p {
   color: var(--white20);
   font-size: 17px;
@@ -39,6 +37,24 @@ p {
 }
 
 a {
+  color: var(--white30);
+}
+
+
+
+.BodyVersionB {
+  background: var(--background);
+  color: var(--white30); 
+}
+.aVersionB{
+  color: var(--white30);
+}
+
+.BodyVersionE{
+  background:#232946;
+  color: #ffff; 
+}
+.aVersionE{
   color: var(--white30);
 }
 
@@ -54,6 +70,15 @@ a {
   }
 }
 
+.main-content{
+  padding-inline-start: 20px;
+  padding-inline-end: 16px;
+  
+}
+
+.main-content__VersionD{
+  text-align: center; 
+}
 
 /*
 .header{
@@ -182,9 +207,6 @@ blockquote p {
   overflow: hidden;
 }
 
-.main-content{
-  padding-inline-start: 16px;
-  padding-inline-end: 16px;
-}
+
 
 
